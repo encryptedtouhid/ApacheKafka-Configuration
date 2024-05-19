@@ -23,7 +23,7 @@ You should see containers for both Kafka and Zookeeper in the list.
 
 Create a Kafka topic using the following command:
 
-    docker exec -it <kafka-container-id> /opt/kafka/bin/kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic my-topic
+    docker exec -it <kafka-container-id> /opt/kafka/bin/kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic <topic-name>
 
 ### Produce and Consume Messages
 
